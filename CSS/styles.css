@@ -1,9 +1,12 @@
 
 .container-fluid div{
     display: flex;
-  justify-content: space-around;}
+  justify-content: space-around;
+  }
 
-
+.navbar-toggler {
+  
+}
 .slide {
     width: 50%;
     margin-left: 25%;
