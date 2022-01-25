@@ -1,11 +1,28 @@
 
+.navbar{
+  padding-top: 0;
+} 
+
+.container-fluid {
+  background-color:#FFFFFF;
+
+}
+
 .container-fluid div{
-    display: flex;
+  display: flex;
   justify-content: space-around;
   }
 
-.navbar-toggler {
-  
+a:hover {
+  font-weight: bolder;
+}
+.row {
+  height: 300px;
+}
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
 }
 .slide {
     width: 50%;
@@ -13,3 +30,7 @@
     margin-top: 30px;
 }
 
+#carouselProjects {
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
